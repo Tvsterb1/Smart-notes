@@ -1,8 +1,9 @@
-#start to create smart notes app
 import json
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 app=QApplication([])
+app.setStyle('Windows')
+#app.setStyle('windowsvita')
 window=QWidget()
 window.setWindowTitle("Smart Note")
 window.resize(800,650)
