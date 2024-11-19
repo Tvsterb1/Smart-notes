@@ -13,7 +13,7 @@ lb_listnote=QLabel("List of notes")
 lb_listing=QLabel("List of tags")
 Listnote=QListWidget()
 Listing=QListWidget()
-look=QLineEdit("Enter tag.")
+look=QLineEdit("")
 
 create_note=QPushButton("Create note")
 Save_note=QPushButton("Save note")
